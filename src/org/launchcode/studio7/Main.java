@@ -4,9 +4,13 @@ public class Main {
 
     public static void main(String[] args){
 
-        // TODO: Declare and initialize a CD and a DVD object.
+        CD testCD = new CD("CD", 200, 500, 680, true);
+        testCD.spinDisc();
+        testCD.infoAboutDisc();
 
-        // TODO: Call each CD and DVD method to verify that they work as expected.
+        DVD testDVD = new DVD("DVD", 570, 1600, 17080, false);
+        testDVD.spinDisc();
+        testDVD.infoAboutDisc();
 
     }
 }
